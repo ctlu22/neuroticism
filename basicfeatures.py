@@ -98,44 +98,44 @@ class BasicFeatures:
 
 
 	def get_avg_token_length(self):
-	"""
-	Returns a dict mapping user iDs to their average token lengths
-	"""
+	   """
+	   Returns a dict mapping user iDs to their average token lengths
+	   """
 		return self.averages
 
 	def get_gender_stats(self):
-	"""
-	Returns a dict mappign user ids to a list of [user_gender, # of 
-	same gender mentions, # of opposite gender mentions]
-	"""
+	    """
+	    Returns a dict mappign user ids to a list of [user_gender, # of 
+	    same gender mentions, # of opposite gender mentions]
+	    """
 		return self.gender_stats
 
 	def get_caps(self):
-	"""
-	Returns a dict mapping user ids to the normalized frequency (on a 
+	    """
+	    Returns a dict mapping user ids to the normalized frequency (on a 
 		per-character basis) of capitalization
-	"""
+	    """
 		return self.caps
 
 	def get_puncts(self):
-	"""
-	Returns a dict mapping user ids to the normalized frequency (on a 
+	    """
+	    Returns a dict mapping user ids to the normalized frequency (on a 
 		per-character basis) of punctuation
-	"""
+	    """
 		return self.puncts
 
 	def get_nighthour(self):
-	"""
-	Returns a dict mapping user ids to the frequency of their posts being
-	posted between 12-5am.
-	"""
+	    """
+	    Returns a dict mapping user ids to the frequency of their posts being
+	    posted between 12-5am.
+	    """
 		return self.night
 
 	def get_weekend(self):
-	"""
-	Returns a dict mapping user ids to the frequency of their posts being
-	posted over a weekend.
-	"""
+	    """
+	    Returns a dict mapping user ids to the frequency of their posts being
+	    posted over a weekend.
+	    """
 		return self.weekend
 
 

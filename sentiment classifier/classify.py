@@ -5,10 +5,10 @@ import buildclassifier
 
 if len(sys.argv) < 3:
   print """USAGE: python classifier.py [input_filename] [output_filename] 
-This script computes sentiment scores ranging from -1 (fully negative) to 1 (fully positive) for facebook status.
-To run this script, you'll need:
---The files 'classifier.pickle','features.pickle', and 'time_limit.py' 
---The python package 'nltk' and nltk stopwords corpus installed 
+  This script computes sentiment scores ranging from -1 (fully negative) to 1 (fully positive) for facebook status.
+  To run this script, you'll need:
+  --The files 'classifier.pickle','features.pickle', and 'time_limit.py' 
+  --The python package 'nltk' and nltk stopwords corpus installed 
   sys.exit()"""
 
 
